@@ -1,0 +1,1 @@
+<?php header('Content-Type: application/json'); $directory = './riset';  $files = array(); if (is_dir($directory)) { if ($handle = opendir($directory)) { while (false !== ($entry = readdir($handle))) { if ($entry != "." && $entry != ".." && pathinfo($entry, PATHINFO_EXTENSION) == 'pdf') { $files[] = $entry; } } closedir($handle); } } echo json_encode($files); ?>
