@@ -1,0 +1,66 @@
+{
+  "short_name": "Publikasi UKMP",
+  "name": "Publikasi UKM Penelitian UNNES",
+  "description": "UKM Penelitian UNNES",
+  "icons": [
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-48x48.webp",
+            "sizes": "48x48",
+            "type": "image/webp"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-72x72.webp",
+            "sizes": "72x72",
+            "type": "image/webp"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-96x96.webp",
+            "sizes": "96x96",
+            "type": "image/webp"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-144x144.webp",
+            "sizes": "144x144",
+            "type": "image/webp"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-192x192.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp",
+            "purpose": "maskable"
+        }
+  ],
+  "screenshots": [
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp",
+            "form_factor": "wide"
+        },
+        {
+            "src": "https://ukmpapps.web.app/logo/ukmp-logo-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp",
+            "form_factor": "narrow"
+        }
+  ],
+  "manifest_version": 3,    
+  "version": "1.0.0",
+  "start_url": "/",
+  "background_color": "#f8f8f8",
+  "author": "GALIH RIDHO UTOMO",
+  "editor": "Digital Departement",
+  "orientation": "portrait",
+  "display": "standalone",
+  "scope": "/",
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "theme_color": "#ffffff",
+  "edgesidepanel": {
+        "preferredwidth": 748
+    }
+}
